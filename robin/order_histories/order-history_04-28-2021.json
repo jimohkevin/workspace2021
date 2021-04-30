@@ -1,0 +1,899 @@
+{
+  "order_number_0": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.307998,
+    "Exit_Point": [
+      0.30798895600000004,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.0001808799999991617,
+    "Date/Time_Purchased": "04/28/2021 13:37:04",
+    "Date/Time_Sold": "04/28/2021 13:39:42"
+  },
+  "order_number_1": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.307915,
+    "Exit_Point": [
+      0.307951198,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.0007239599999997459,
+    "Date/Time_Purchased": "04/28/2021 13:36:39",
+    "Date/Time_Sold": "04/28/2021 13:39:42"
+  },
+  "order_number_2": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.307906,
+    "Exit_Point": [
+      0.307965188,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.0011837599999997561,
+    "Date/Time_Purchased": "04/28/2021 13:36:39",
+    "Date/Time_Sold": "04/28/2021 13:39:43"
+  },
+  "order_number_3": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.307825,
+    "Exit_Point": [
+      0.30799129799999997,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.003325959999999073,
+    "Date/Time_Purchased": "04/28/2021 13:36:24",
+    "Date/Time_Sold": "04/28/2021 13:39:43"
+  },
+  "order_number_4": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.307809,
+    "Exit_Point": [
+      0.307965382,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.003127640000000209,
+    "Date/Time_Purchased": "04/28/2021 13:36:23",
+    "Date/Time_Sold": "04/28/2021 13:39:43"
+  },
+  "order_number_5": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.306857,
+    "Exit_Point": [
+      0.308792286,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.03870572000000072,
+    "Date/Time_Purchased": "04/28/2021 13:43:08",
+    "Date/Time_Sold": "04/28/2021 13:45:50"
+  },
+  "order_number_6": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.306857,
+    "Exit_Point": [
+      0.30878130800000003,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.038486160000000824,
+    "Date/Time_Purchased": "04/28/2021 13:43:08",
+    "Date/Time_Sold": "04/28/2021 13:45:50"
+  },
+  "order_number_7": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.305351,
+    "Exit_Point": [
+      0.30489728000000005,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.009074399999998706,
+    "Date/Time_Purchased": "04/28/2021 14:48:12",
+    "Date/Time_Sold": "04/28/2021 14:48:31"
+  },
+  "order_number_8": {
+    "Symbol": "DOGE",
+    "Quantity": 20,
+    "Entry_Point": 0.305264,
+    "Exit_Point": [
+      0.305623472,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.0071894400000005465,
+    "Date/Time_Purchased": "04/28/2021 14:50:28",
+    "Date/Time_Sold": "04/28/2021 14:51:27"
+  },
+  "order_number_9": {
+    "Symbol": "DOGE",
+    "Quantity": 40,
+    "Entry_Point": 0.30762,
+    "Exit_Point": [
+      0.30830076199999995,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.027230479999997836,
+    "Date/Time_Purchased": "04/28/2021 14:56:55",
+    "Date/Time_Sold": "04/28/2021 14:59:26"
+  },
+  "order_number_10": {
+    "Symbol": "DOGE",
+    "Quantity": 40,
+    "Entry_Point": 0.307942,
+    "Exit_Point": [
+      0.30778511999999997,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.0062752000000010355,
+    "Date/Time_Purchased": "04/28/2021 15:03:37",
+    "Date/Time_Sold": "04/28/2021 15:04:14"
+  },
+  "order_number_11": {
+    "Symbol": "DOGE",
+    "Quantity": 40,
+    "Entry_Point": 0.307565,
+    "Exit_Point": [
+      0.30734688800000004,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.008724479999997481,
+    "Date/Time_Purchased": "04/28/2021 15:05:14",
+    "Date/Time_Sold": "04/28/2021 15:06:17"
+  },
+  "order_number_12": {
+    "Symbol": "DOGE",
+    "Quantity": 40,
+    "Entry_Point": 0.30539,
+    "Exit_Point": [
+      0.3068352140000001,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.05780856000000334,
+    "Date/Time_Purchased": "04/28/2021 15:10:10",
+    "Date/Time_Sold": "04/28/2021 15:11:17"
+  },
+  "order_number_13": {
+    "Symbol": "DOGE",
+    "Quantity": 40,
+    "Entry_Point": 0.306665,
+    "Exit_Point": [
+      0.30682866999999997,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.006546799999997965,
+    "Date/Time_Purchased": "04/28/2021 15:13:18",
+    "Date/Time_Sold": "04/28/2021 15:16:26"
+  },
+  "order_number_14": {
+    "Symbol": "DOGE",
+    "Quantity": 40,
+    "Entry_Point": 0.306472,
+    "Exit_Point": [
+      0.308150056,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.06712223999999933,
+    "Date/Time_Purchased": "04/28/2021 15:19:01",
+    "Date/Time_Sold": "04/28/2021 15:19:54"
+  },
+  "order_number_15": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.308668,
+    "Exit_Point": [
+      0.30883966399999996,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.013733119999996823,
+    "Date/Time_Purchased": "04/28/2021 15:22:29",
+    "Date/Time_Sold": "04/28/2021 15:23:06"
+  },
+  "order_number_16": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.308891,
+    "Exit_Point": [
+      0.309292218,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.03209743999999848,
+    "Date/Time_Purchased": "04/28/2021 15:27:56",
+    "Date/Time_Sold": "04/28/2021 15:30:28"
+  },
+  "order_number_17": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.308947,
+    "Exit_Point": [
+      0.310025106,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.08624847999999741,
+    "Date/Time_Purchased": "04/28/2021 15:34:06",
+    "Date/Time_Sold": "04/28/2021 15:36:34"
+  },
+  "order_number_18": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310929,
+    "Exit_Point": [
+      0.310480142,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.035908639999999714,
+    "Date/Time_Purchased": "04/28/2021 15:38:05",
+    "Date/Time_Sold": "04/28/2021 15:38:54"
+  },
+  "order_number_19": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310089,
+    "Exit_Point": [
+      0.310013778,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.006017759999998873,
+    "Date/Time_Purchased": "04/28/2021 15:42:24",
+    "Date/Time_Sold": "04/28/2021 15:44:51"
+  },
+  "order_number_20": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.308886,
+    "Exit_Point": [
+      0.310425218,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.12313744000000071,
+    "Date/Time_Purchased": "04/28/2021 15:49:50",
+    "Date/Time_Sold": "04/28/2021 15:57:46"
+  },
+  "order_number_21": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310567,
+    "Exit_Point": [
+      0.309969866,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.04777071999999993,
+    "Date/Time_Purchased": "04/28/2021 16:00:23",
+    "Date/Time_Sold": "04/28/2021 16:00:41"
+  },
+  "order_number_22": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310096,
+    "Exit_Point": [
+      0.30961772800000004,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.038261759999995704,
+    "Date/Time_Purchased": "04/28/2021 16:03:52",
+    "Date/Time_Sold": "04/28/2021 16:04:03"
+  },
+  "order_number_23": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.309753,
+    "Exit_Point": [
+      0.309227558,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.04203535999999897,
+    "Date/Time_Purchased": "04/28/2021 16:04:09",
+    "Date/Time_Sold": "04/28/2021 16:05:26"
+  },
+  "order_number_24": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310022,
+    "Exit_Point": [
+      0.309902956,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.009523520000001007,
+    "Date/Time_Purchased": "04/28/2021 16:06:18",
+    "Date/Time_Sold": "04/28/2021 16:07:41"
+  },
+  "order_number_25": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.3082,
+    "Exit_Point": [
+      0.30763759999999996,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.044992000000001475,
+    "Date/Time_Purchased": "04/28/2021 16:17:16",
+    "Date/Time_Sold": "04/28/2021 16:17:27"
+  },
+  "order_number_26": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.306967,
+    "Exit_Point": [
+      0.306327118,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.05119055999999844,
+    "Date/Time_Purchased": "04/28/2021 16:18:09",
+    "Date/Time_Sold": "04/28/2021 16:18:17"
+  },
+  "order_number_27": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.305914,
+    "Exit_Point": [
+      0.305625172,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.0231062400000015,
+    "Date/Time_Purchased": "04/28/2021 16:22:11",
+    "Date/Time_Sold": "04/28/2021 16:22:26"
+  },
+  "order_number_28": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.305221,
+    "Exit_Point": [
+      0.304895574,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.026034080000001403,
+    "Date/Time_Purchased": "04/28/2021 16:23:13",
+    "Date/Time_Sold": "04/28/2021 16:23:27"
+  },
+  "order_number_29": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.304309,
+    "Exit_Point": [
+      0.30458733000000004,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.022266400000003905,
+    "Date/Time_Purchased": "04/28/2021 16:24:20",
+    "Date/Time_Sold": "04/28/2021 16:25:01"
+  },
+  "order_number_30": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.304197,
+    "Exit_Point": [
+      0.305284732,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.08701856000000063,
+    "Date/Time_Purchased": "04/28/2021 16:25:59",
+    "Date/Time_Sold": "04/28/2021 16:26:37"
+  },
+  "order_number_31": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.306293,
+    "Exit_Point": [
+      0.306741414,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.03587312000000065,
+    "Date/Time_Purchased": "04/28/2021 16:31:13",
+    "Date/Time_Sold": "04/28/2021 16:33:16"
+  },
+  "order_number_32": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.307901,
+    "Exit_Point": [
+      0.307288202,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.0490238399999976,
+    "Date/Time_Purchased": "04/28/2021 16:38:30",
+    "Date/Time_Sold": "04/28/2021 16:39:01"
+  },
+  "order_number_33": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.307279,
+    "Exit_Point": [
+      0.307556442,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.02219535999999689,
+    "Date/Time_Purchased": "04/28/2021 16:39:07",
+    "Date/Time_Sold": "04/28/2021 16:40:58"
+  },
+  "order_number_34": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.307519,
+    "Exit_Point": [
+      0.30702092000000003,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.03984639999999651,
+    "Date/Time_Purchased": "04/28/2021 16:41:27",
+    "Date/Time_Sold": "04/28/2021 16:41:52"
+  },
+  "order_number_35": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.306774,
+    "Exit_Point": [
+      0.306215452,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.044683839999999364,
+    "Date/Time_Purchased": "04/28/2021 16:44:58",
+    "Date/Time_Sold": "04/28/2021 16:45:19"
+  },
+  "order_number_36": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.305521,
+    "Exit_Point": [
+      0.305289958,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.01848336000000117,
+    "Date/Time_Purchased": "04/28/2021 16:48:56",
+    "Date/Time_Sold": "04/28/2021 16:49:48"
+  },
+  "order_number_37": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.304947,
+    "Exit_Point": [
+      0.305220106,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.021848479999997394,
+    "Date/Time_Purchased": "04/28/2021 16:50:17",
+    "Date/Time_Sold": "04/28/2021 16:52:32"
+  },
+  "order_number_38": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.305845,
+    "Exit_Point": [
+      0.30649931,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.052344800000003744,
+    "Date/Time_Purchased": "04/28/2021 16:54:01",
+    "Date/Time_Sold": "04/28/2021 16:57:55"
+  },
+  "order_number_39": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.306989,
+    "Exit_Point": [
+      0.307272022,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.02264175999999729,
+    "Date/Time_Purchased": "04/28/2021 17:00:11",
+    "Date/Time_Sold": "04/28/2021 17:01:05"
+  },
+  "order_number_40": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.305607,
+    "Exit_Point": [
+      0.30969275199999996,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.3268601599999954,
+    "Date/Time_Purchased": "04/28/2021 17:06:31",
+    "Date/Time_Sold": "04/28/2021 17:15:23"
+  },
+  "order_number_41": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.311686,
+    "Exit_Point": [
+      0.311430752,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.020419840000003298,
+    "Date/Time_Purchased": "04/28/2021 17:20:55",
+    "Date/Time_Sold": "04/28/2021 17:22:02"
+  },
+  "order_number_42": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.312262,
+    "Exit_Point": [
+      0.311731482,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.04244143999999839,
+    "Date/Time_Purchased": "04/28/2021 17:27:45",
+    "Date/Time_Sold": "04/28/2021 17:29:45"
+  },
+  "order_number_43": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.309813,
+    "Exit_Point": [
+      0.30957037400000004,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.019410079999997443,
+    "Date/Time_Purchased": "04/28/2021 17:32:43",
+    "Date/Time_Sold": "04/28/2021 17:32:56"
+  },
+  "order_number_44": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.309983,
+    "Exit_Point": [
+      0.310369034,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.030882719999998365,
+    "Date/Time_Purchased": "04/28/2021 17:35:51",
+    "Date/Time_Sold": "04/28/2021 17:38:12"
+  },
+  "order_number_45": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.308967,
+    "Exit_Point": [
+      0.308930066,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.002954719999999078,
+    "Date/Time_Purchased": "04/28/2021 17:41:14",
+    "Date/Time_Sold": "04/28/2021 17:42:54"
+  },
+  "order_number_46": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310106,
+    "Exit_Point": [
+      0.310568788,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.03702303999999934,
+    "Date/Time_Purchased": "04/28/2021 17:44:46",
+    "Date/Time_Sold": "04/28/2021 17:45:55"
+  },
+  "order_number_47": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310172,
+    "Exit_Point": [
+      0.30953369199999997,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.05106464000000255,
+    "Date/Time_Purchased": "04/28/2021 17:46:06",
+    "Date/Time_Sold": "04/28/2021 17:47:11"
+  },
+  "order_number_48": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310641,
+    "Exit_Point": [
+      0.31005967800000006,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.04650575999999518,
+    "Date/Time_Purchased": "04/28/2021 17:49:25",
+    "Date/Time_Sold": "04/28/2021 17:49:49"
+  },
+  "order_number_49": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.31021,
+    "Exit_Point": [
+      0.31208058,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.14964640000000085,
+    "Date/Time_Purchased": "04/28/2021 17:51:59",
+    "Date/Time_Sold": "04/28/2021 17:54:51"
+  },
+  "order_number_50": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.31186,
+    "Exit_Point": [
+      0.31134528,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.041177600000001924,
+    "Date/Time_Purchased": "04/28/2021 17:57:04",
+    "Date/Time_Sold": "04/28/2021 17:58:52"
+  },
+  "order_number_51": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.311921,
+    "Exit_Point": [
+      0.311320144,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.04806847999999864,
+    "Date/Time_Purchased": "04/28/2021 18:09:40",
+    "Date/Time_Sold": "04/28/2021 18:12:04"
+  },
+  "order_number_52": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.311154,
+    "Exit_Point": [
+      0.31059562800000007,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.04466975999999345,
+    "Date/Time_Purchased": "04/28/2021 18:12:09",
+    "Date/Time_Sold": "04/28/2021 18:12:12"
+  },
+  "order_number_53": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310301,
+    "Exit_Point": [
+      0.31031549199999997,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.0011593599999981663,
+    "Date/Time_Purchased": "04/28/2021 18:16:38",
+    "Date/Time_Sold": "04/28/2021 18:17:28"
+  },
+  "order_number_54": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310063,
+    "Exit_Point": [
+      0.309637874,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.03401007999999983,
+    "Date/Time_Purchased": "04/28/2021 18:17:31",
+    "Date/Time_Sold": "04/28/2021 18:20:10"
+  },
+  "order_number_55": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.309576,
+    "Exit_Point": [
+      0.309215848,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.028812160000000198,
+    "Date/Time_Purchased": "04/28/2021 18:21:13",
+    "Date/Time_Sold": "04/28/2021 18:23:00"
+  },
+  "order_number_56": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.310147,
+    "Exit_Point": [
+      0.310422706,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.022056479999998935,
+    "Date/Time_Purchased": "04/28/2021 18:25:13",
+    "Date/Time_Sold": "04/28/2021 18:26:10"
+  },
+  "order_number_57": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.31018,
+    "Exit_Point": [
+      0.31197464,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.14357120000000112,
+    "Date/Time_Purchased": "04/28/2021 18:29:55",
+    "Date/Time_Sold": "04/28/2021 18:35:29"
+  },
+  "order_number_58": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.311544,
+    "Exit_Point": [
+      0.31278891200000003,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.0995929600000034,
+    "Date/Time_Purchased": "04/28/2021 18:40:20",
+    "Date/Time_Sold": "04/28/2021 18:41:23"
+  },
+  "order_number_59": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.319737,
+    "Exit_Point": [
+      0.31903864400000004,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.055868479999996445,
+    "Date/Time_Purchased": "04/28/2021 18:49:35",
+    "Date/Time_Sold": "04/28/2021 18:49:46"
+  },
+  "order_number_60": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.31872,
+    "Exit_Point": [
+      0.31955057800000003,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.0664462400000021,
+    "Date/Time_Purchased": "04/28/2021 18:50:52",
+    "Date/Time_Sold": "04/28/2021 18:52:43"
+  },
+  "order_number_61": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.31857,
+    "Exit_Point": [
+      0.31928786000000003,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.05742880000000117,
+    "Date/Time_Purchased": "04/28/2021 19:03:22",
+    "Date/Time_Sold": "04/28/2021 19:04:47"
+  },
+  "order_number_62": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.319459,
+    "Exit_Point": [
+      0.319957082,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.039846560000000864,
+    "Date/Time_Purchased": "04/28/2021 19:06:12",
+    "Date/Time_Sold": "04/28/2021 19:07:14"
+  },
+  "order_number_63": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.320079,
+    "Exit_Point": [
+      0.31970274800000004,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.030100159999997267,
+    "Date/Time_Purchased": "04/28/2021 19:07:27",
+    "Date/Time_Sold": "04/28/2021 19:08:45"
+  },
+  "order_number_64": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.319505,
+    "Exit_Point": [
+      0.31886999,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.05080079999999931,
+    "Date/Time_Purchased": "04/28/2021 19:08:51",
+    "Date/Time_Sold": "04/28/2021 19:09:20"
+  },
+  "order_number_65": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.318481,
+    "Exit_Point": [
+      0.318679068,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.015845439999999655,
+    "Date/Time_Purchased": "04/28/2021 19:11:54",
+    "Date/Time_Sold": "04/28/2021 19:12:45"
+  },
+  "order_number_66": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.318706,
+    "Exit_Point": [
+      0.322295792,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.2871833600000029,
+    "Date/Time_Purchased": "04/28/2021 19:14:03",
+    "Date/Time_Sold": "04/28/2021 19:19:28"
+  },
+  "order_number_67": {
+    "Symbol": "DOGE",
+    "Quantity": 80,
+    "Entry_Point": 0.321981,
+    "Exit_Point": [
+      0.32249884799999995,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.04142783999999455,
+    "Date/Time_Purchased": "04/28/2021 19:20:17",
+    "Date/Time_Sold": "04/28/2021 19:21:42"
+  },
+  "order_number_68": {
+    "Symbol": "DOGE",
+    "Quantity": 160,
+    "Entry_Point": 0.32367,
+    "Exit_Point": [
+      0.324802756,
+      "null"
+    ],
+    "Profit_ticker": "PROFITABLE",
+    "Profit/Loss": 0.181240960000002,
+    "Date/Time_Purchased": "04/28/2021 19:30:25",
+    "Date/Time_Sold": "04/28/2021 19:31:56"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "symbol": "DOGE",
+  "datamax": 250,
+  "timeframe": 120,
+  "order_max": 1,
+  "quantity_per_order": 5,
+  "stop_loss_percentage": 0.998,
+  "comment1": "If you change data in here it will take 30s to update.",
+  "comment2": "Don't change the symbol unless the 'Active Orders' amount is Zero or they will not be completed",
+  "comment3": "The stop_loss_percentage is the number multiplied times the 'record price'. An example for reference is 0.998 is 0.2 percent stop_loss",
+  "comment4": "Don't make the timeframe smaller than 120. To be more precise, don't make the ratio between datamax and timeframe (timeframe / datamax) less than about 0.5, it will cause the computer to glitch. Maybe on a more powerful one it'd do better"
+}

@@ -1,0 +1,28 @@
+{
+  "order_number_0": {
+    "Symbol": "DOGE",
+    "quantity": 5,
+    "Entry_Point": 0.3302,
+    "Exit_Point": [
+      0.329807064,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.001964680000000052,
+    "Date/Time_Purchased": "04/30/2021 15:29:19",
+    "Date/Time_Sold": "04/30/2021 15:30:37"
+  },
+  "order_number_1": {
+    "Symbol": "DOGE",
+    "quantity": 5,
+    "Entry_Point": 0.329896,
+    "Exit_Point": [
+      0.329406866,
+      "null"
+    ],
+    "Profit_ticker": "NEGATIVE",
+    "Profit/Loss": -0.002445670000000011,
+    "Date/Time_Purchased": "04/30/2021 15:31:27",
+    "Date/Time_Sold": "04/30/2021 15:32:08"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "symbol": "DOGE",
+  "datamax": 250,
+  "timeframe": 120,
+  "order_max": 5,
+  "quantity_per_order": 5,
+  "stop_loss_percentage": 0.998,
+  "comment1": "If you change data in here it will take 30s to update.",
+  "comment2": "Don't change the symbol unless the 'Active Orders' amount is Zero or they will not be completed",
+  "comment3": ""
+}

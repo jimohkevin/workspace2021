@@ -1,0 +1,68 @@
+{
+  "order_number_0": {
+    "Symbol": "DOGE",
+    "Quantity": 1,
+    "Entry_Point": "0.270337",
+    "Exit_Point": [
+      "0.270323",
+      "0.270304"
+    ],
+    "Date/Time_Purchased": "04/27/2021 15:00:46",
+    "Date/Time_Sold": "04/27/2021 15:00:46"
+  },
+  "order_number_1": {
+    "Symbol": "DOGE",
+    "Quantity": 1,
+    "Entry_Point": "0.270400",
+    "Exit_Point": [
+      "0.270406",
+      "0.270406"
+    ],
+    "Date/Time_Purchased": "04/27/2021 15:01:01",
+    "Date/Time_Sold": "04/27/2021 15:01:01"
+  },
+  "order_number_2": {
+    "Symbol": "DOGE",
+    "Quantity": 1,
+    "Entry_Point": "0.269929",
+    "Exit_Point": [
+      "0.269929",
+      "0.269929"
+    ],
+    "Date/Time_Purchased": "04/27/2021 15:08:59",
+    "Date/Time_Sold": "04/27/2021 15:08:59"
+  },
+  "order_number_3": {
+    "Symbol": "DOGE",
+    "Quantity": 1,
+    "Entry_Point": "0.269734",
+    "Exit_Point": [
+      "0.269746",
+      "0.269746"
+    ],
+    "Date/Time_Purchased": "04/27/2021 15:15:02",
+    "Date/Time_Sold": "04/27/2021 15:15:02"
+  },
+  "order_number_4": {
+    "Symbol": "DOGE",
+    "Quantity": 1,
+    "Entry_Point": "0.270097",
+    "Exit_Point": [
+      "0.270097",
+      "0.270097"
+    ],
+    "Date/Time_Purchased": "04/27/2021 15:17:03",
+    "Date/Time_Sold": "04/27/2021 15:17:04"
+  },
+  "order_number_5": {
+    "Symbol": "DOGE",
+    "Quantity": 1,
+    "Entry_Point": "0.269438",
+    "Exit_Point": [
+      "0.269471",
+      "0.269484"
+    ],
+    "Date/Time_Purchased": "04/27/2021 15:23:03",
+    "Date/Time_Sold": "04/27/2021 15:23:03"
+  }
+}
