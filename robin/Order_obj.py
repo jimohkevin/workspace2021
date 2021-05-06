@@ -17,11 +17,14 @@ class Order:
         self.order_type = order_type
         self.record_price = self.entry_point
 
-        rm.buy_crypto(self.symbol, self.quantity)
+        if order_type != "sandbox":
+            rm.buy_crypto(self.symbol, self.quantity)
+        else:
+            print("{} unit(s) of {} bought (sb).".format(self.quantity, self.symbol))
 
         self.purchasedatetime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
-    def update(self, latest_price, stop_loss):
+    def update(self, latest_price, stop_loss_percentage):
         self.latest_price = latest_price
 
         if self.order_is_active:
@@ -60,7 +63,7 @@ class Order:
                         t.write(json.dumps(hist, indent=2))
                         t.close()
 
-                self.rolling_stop_loss(self.latest_price, stop_loss)
+                self.rolling_stop_loss(self.latest_price, stop_loss_percentage)
 
             # "rolling_only" sets it to be rolling stop-loss only, not factoring in an upper bound
             if self.order_type == "rolling_only":
@@ -97,13 +100,49 @@ class Order:
                         t.write(json.dumps(hist, indent=2))
                         t.close()
 
-                self.rolling_stop_loss(self.latest_price, stop_loss)
+                self.rolling_stop_loss(self.latest_price, stop_loss_percentage)
+
+            if self.order_type == "sandbox":
+                if self.latest_price <= self.exit_point[0]:
+                    #rm.sell_crypto(self.symbol, self.quantity)
+                    print("{} unit(s) of {} sold (sb).".format(self.quantity, self.symbol))
+                    self.selldatetime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+                    self.order_is_active = False
+
+                    try:
+                        file = 'order_histories\order-history_{}.json'.format(datetime.now().strftime("%m-%d-%Y"))
+
+                        content = open(file).read()
+                        hist = json.loads(content)
+
+                        hist["order_number_{}".format(len(hist))] = self.orderInfo()
+
+                        t = open(file, 'w')
+                        t.write(json.dumps(hist, indent=2))
+                        t.close()
+                    except FileNotFoundError:
+                        file = 'order_histories\order-history_{}.json'.format(datetime.now().strftime("%m-%d-%Y"))
+
+                        f = open(file, 'w')
+                        f.write("{}")
+                        f.close()
+
+                        content = open(file).read()
+                        hist = json.loads(content)
+
+                        hist["order_number_{}".format(len(hist))] = self.orderInfo()
+
+                        t = open(file, 'w')
+                        t.write(json.dumps(hist, indent=2))
+                        t.close()
+
+                self.rolling_stop_loss(self.latest_price, stop_loss_percentage)
 
     def orderInfo(self):
         profit_info = self.profit_track()
 
 
-        info = {"Symbol": self.symbol, "quantity": self.quantity, "Entry_Point": self.entry_point, "Exit_Point": self.exit_point, "Profit_ticker": profit_info[0], "Profit/Loss": profit_info[1]*self.quantity,"Date/Time_Purchased": self.purchasedatetime, "Date/Time_Sold": self.selldatetime}
+        info = {"Symbol": self.symbol, "Quantity": self.quantity, "Entry_Point": self.entry_point, "Exit_Point": self.exit_point, "Profit_ticker": profit_info[0], "Profit/Loss": profit_info[1]*self.quantity,"Date/Time_Purchased": self.purchasedatetime, "Date/Time_Sold": self.selldatetime}
 
         return info
 

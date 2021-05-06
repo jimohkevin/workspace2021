@@ -1,10 +1,17 @@
 import json
 import robin_stocks as rh
 
-def check_price(symbol):
-    quote = rh.robinhood.get_crypto_quote_from_id(rh.robinhood.get_crypto_info(symbol)["id"])
+'''
+Program notes:
 
-    return quote["ask_price"]
+•have the program update the stoploss percentage to be reduced by a percentage of profit ie: if the profit went up 2%, we can afford another 1% drop.
+•Update the trend tracking.
+'''
+
+def check_price(symbol):
+    quote = rh.robinhood.get_crypto_quote(symbol)
+
+    return quote['mark_price']
 
 # login - must be called before any other of the api accessing methods to grant access
 def login():
@@ -13,15 +20,15 @@ def login():
 
     rh.robinhood.authentication.login(config['username'], config['password'])
 
-# buys crypto by amount in dollars
+# buys crypto by quantity
 def buy_crypto(symbol, quantity):
     rh.robinhood.order_buy_crypto_by_quantity(symbol, quantity)
-    print("{} units of {} purchased.\n".format(quantity, symbol))
+    print("{} unit(s) purchased.".format(quantity))
 
-# sells crypto by amount in dollars
+# sells crypto by quantity
 def sell_crypto(symbol, quantity):
     rh.robinhood.order_sell_crypto_by_quantity(symbol, quantity)
-    print("{} units of {} sold.\n".format(quantity, symbol))
+    print("{} unit(s) sold.".format(quantity))
 
 # Checks how much of one type of crypto you own
 def check_crypto_quantity(symbol):
@@ -31,16 +38,3 @@ def check_crypto_quantity(symbol):
         if i['currency']['code'] == symbol:
             info = i['quantity']
     return info
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -61,23 +61,15 @@ def calculate_daily_profits():
     content = open(file).read()
     hist = json.loads(content)
 
-    entry_net = 0
-    exit_net = 0
     net_total = 0
 
     for each in hist:
-        entry = each["Entry_Point"]
-        exit = each["Exit_Point"][0]
-        diff = exit - entry
+        profit = hist[each]["Profit/Loss"]
 
-        net_total += diff
-        entry_net += entry
-        exit_net += exit
+        net_total += profit
 
-    entry_avg = entry_net / len(hist)
-    exit_avg = exit_net / len(hist)
 
-    return {"Net_Total": net_total, "AVG_Entry_Price": entry_avg, "AVG_Exit_Price": exit_avg}
+    return {"Net_Total": net_total}
 
 
 if __name__ == '__main__':
@@ -116,10 +108,13 @@ if __name__ == '__main__':
         stop_loss_percentage = setup["stop_loss_percentage"]  # 0.2 percent losses max
 
         refresh_interval = 1
+
+
     # Continuous loop
 
-    while True:
 
+
+    while True:
         if t.time() - start_time > timeframe:
             prices.append(float(rm.check_price(symbol)))
 
@@ -130,18 +125,20 @@ if __name__ == '__main__':
             start_time = t.time()
 
             try:
+                entry_price = orders[0].entry_point
                 record_price = orders[0].record_price
                 stop_loss_price = orders[0].exit_point[0]
 
             except IndexError as e:
+                entry_price = "N/A"
                 record_price = "N/A"
                 stop_loss_price = "N/A"
 
             try:
                 trend_data = return_trend(prices, timeframe)
                 print(
-                    "Price is: {}\nRate of Change is: {}\nTrend is: {} (Total price list size is {})\nActive orders: {}. Record Price is: {}. Stop Loss Price is: {}\n".format(
-                        prices[-1], trend_data[1], trend_data[0], len(prices), len(orders), record_price,
+                    "Price is: {}. Rate of Change is: {}\nTrend is: {} (Total price list size is {})\nActive orders: {}. \nEntry Price is: {}. Record Price is: {}. Stop Loss Price is: {}\n".format(
+                        prices[-1], trend_data[1], trend_data[0], len(prices), len(orders), entry_price, record_price,
                         stop_loss_price))
 
                 trends.append(trend_data[0])
@@ -153,17 +150,17 @@ if __name__ == '__main__':
                 del trends[0]
 
             try:
-                if trends[0] != "UPTREND" and trends[1] != "UPTREND" and trends[2] != "UPTREND" and trends[-2] == "UPTREND" and trends[-1] == "UPTREND":
+                if trends[0] != "UPTREND" and trends[1] != "UPTREND" and trends[2] != "UPTREND" and trends[
+                    -2] == "UPTREND" and trends[-1] == "UPTREND":
                     if len(prices) >= datamax * .9 and len(orders) < order_max:
-                        orders.append(
-                            Order(symbol, amt, [prices[-1] * stop_loss_percentage, "null"], "rolling_only"))
+                        orders.append(Order(symbol, quant, [prices[-1] * stop_loss_percentage, "null"], "sandbox"))
 
             except IndexError as e:
                 print(e)
 
             try:
                 for i in range(len(orders) - 1, -1, -1):
-                    orders[i].update(prices[-1], stop_loss_percentage)
+                    orders[i].update(prices[-1], setup["stop_loss_percentage"])
 
                     if orders[i].order_is_active == False:
                         del orders[i]
@@ -181,8 +178,9 @@ if __name__ == '__main__':
             timeframe = setup["timeframe"] / datamax
 
             order_max = setup["order_max"]
-            amt = setup["quantity_per_order"]
+            quant = setup["quantity_per_order"]
 
             stop_loss_percentage = setup["stop_loss_percentage"]
 
             start_time2 = t.time()
+
